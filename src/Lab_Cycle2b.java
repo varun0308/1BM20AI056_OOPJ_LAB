@@ -70,7 +70,7 @@ class circle3d extends circle
     }
     void display()
     {
-        System.out.println("Area of Sphere = " + area);
+        System.out.println("Area of 3d Circle = " + area);
     }
 }
 
