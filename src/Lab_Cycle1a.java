@@ -32,7 +32,7 @@ class retail_item
     }
     void display()
     {
-        System.out.println("In Method");
+        System.out.println("In Display method");
         System.out.println("Description :" + this.description);
         System.out.println("Units :" + this.units);
         System.out.println("Price :" + this.price);
