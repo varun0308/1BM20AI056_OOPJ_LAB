@@ -33,7 +33,7 @@ class B extends Marks{
 
 }
 
-public class ques_1{
+public class ques_3 {
     public static void main(String args[])
     {
         A obj1 = new A(60,70,80);
@@ -42,4 +42,5 @@ public class ques_1{
         B obj2 = new B(60,70,80,90);
         System.out.println(obj2.getPercentage());
     }
+
 }
