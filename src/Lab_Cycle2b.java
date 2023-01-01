@@ -8,6 +8,8 @@ abstract class shape
 class triangle extends shape
 {
     double b,h,area;
+    triangle()
+    {;}
     triangle(double base,double height)
     {
         b = base;
@@ -79,6 +81,11 @@ public class Lab_Cycle2b
     public static void main(String args[])
     {
         triangle t = new triangle(4.0,2.5);
+        triangle t1 = new triangle();
+        t1.b = 10.0;
+        t1.h = 15.0;
+        t1.calc_area();
+        t1.display();
         t.calc_area();
         t.display();
         circle c = new circle(3.0);
