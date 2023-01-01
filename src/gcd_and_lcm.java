@@ -1,5 +1,5 @@
-import GCD.gcd;
-import LCM.lcm;
+import Gcd.gcd;
+import Lcm.lcm;
 
 class gcd_and_lcm{
  public static void main(String args[])

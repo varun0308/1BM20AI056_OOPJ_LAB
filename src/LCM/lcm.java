@@ -1,4 +1,4 @@
-package LCM;
+package Lcm;
 
 public class lcm{
  int n1,n2,lcm;

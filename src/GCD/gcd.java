@@ -1,4 +1,4 @@
-package GCD;
+package Gcd;
 
 public class gcd{
  int n1,n2,temp;

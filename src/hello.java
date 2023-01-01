@@ -1,4 +1,4 @@
-import calculator.*;
+import Calculator.*;
 
 public class hello {
     public static void main(String args[])
