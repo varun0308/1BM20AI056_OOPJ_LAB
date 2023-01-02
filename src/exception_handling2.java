@@ -1,7 +1,6 @@
 // Calculator using switch statement
 // Handle arithmetic excetions where ever necessary
 import java.util.* ;
-import Calculator.*;
 
 class exception_handling2{
     public static void main(String[] args) {
