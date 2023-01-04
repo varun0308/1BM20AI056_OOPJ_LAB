@@ -12,19 +12,19 @@ public class exception_handling5 {
     {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
+        sc.close();
         try{
-        if(a == 5)
-        {
-            throw new isNum5("Number is = "+a);
-        }
-        else{
-            System.out.print("Entered number = "+a);
-        }
+            if(a == 5)
+            {
+                throw new isNum5("Number is = "+a);
+            }
+            else{
+                System.out.print("Entered number = "+a);
+            }
         }
         catch(isNum5 e){
             System.out.println("Caught");
             System.out.println(e.getMessage());
         }
-        sc.close();
     }   
 }
