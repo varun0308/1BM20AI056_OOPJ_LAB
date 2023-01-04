@@ -1,3 +1,4 @@
+package exception_handling;
 // Calculator using switch statement
 // Handle arithmetic excetions where ever necessary
 import java.util.* ;
@@ -53,5 +54,6 @@ class exception_handling2{
             }
             
         }
+        sc.close();
     }
 }

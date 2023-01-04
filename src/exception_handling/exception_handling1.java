@@ -1,4 +1,4 @@
-import javafx.scene.effect.Light.Spot;
+package exception_handling;
 import java.util.* ;
 // Denominator = 0 ---> Exception
 

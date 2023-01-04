@@ -1,3 +1,4 @@
+package exception_handling;
 // Arrays index accessing error
 
 import java.util.* ;
