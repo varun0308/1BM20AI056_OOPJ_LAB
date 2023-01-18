@@ -9,7 +9,7 @@ class ispositive extends Exception{
 public class exception_handling6 {
     public static void main(String args[])
     {
-        int a = 5, b = 2;
+        int a = 5, b = 3;
         int diff = a-b;
         try{
             if(diff > 0)
@@ -20,7 +20,7 @@ public class exception_handling6 {
         catch(ispositive e)
         {
             System.out.println("Caught");
-            System.out.println(e.getLocalizedMessage());
+            System.out.println(e.getMessage());
         }
     }
 }
